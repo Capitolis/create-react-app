@@ -1,6 +1,6 @@
 {
-  "name": "react-scripts",
-  "version": "2.1.2",
+  "name": "cptls-react-scripts",
+  "version": "2.1.3",
   "description": "Configuration and scripts for Create React App.",
   "repository": "facebook/create-react-app",
   "license": "MIT",
@@ -19,6 +19,9 @@
     "template-typescript",
     "utils"
   ],
+  "publishConfig": {
+    "registry": "http://nexus.capitolis.com:8081/repository/cptls-npm/"
+  },
   "bin": {
     "react-scripts": "./bin/react-scripts.js"
   },
